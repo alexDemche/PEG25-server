@@ -1,15 +1,11 @@
 ---
 application:
-  name: "peg25-server"
-  project: "PEG25-server"
+  name: "peg25"
+  project: "PEG25"
   organization: "QoveryCommunity"
-databases:
-- type: "MONGODB"
-  name: "myFirstDatabase"
-  version: "4.4"
 routers:
-- name: "main-peg25-server"
+- name: "main-peg25"
   routes:
-  - application_name: "peg25-server"
+  - application_name: "peg25"
     paths:
     - "/*"
